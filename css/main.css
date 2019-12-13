@@ -50,6 +50,7 @@ img-flex {
   font-family: "Denk One", sans-serif;
   padding: 1rem;
   margin: 0;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 25em){
@@ -77,8 +78,19 @@ html{
   .wrapper{
     position: relative;
     width: 100%;
-
+}
+  .sentence{
+    padding: 00 1rem 1rem;
+    margin: 0;
+    font-family: georgia, serif;
   }
+}
+    .title {
+    margin: 0;
+    font-family: "Denk One", sans-serif;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 60em) {
