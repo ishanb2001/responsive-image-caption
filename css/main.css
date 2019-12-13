@@ -24,14 +24,66 @@ img {
   display: block;
 
 }
-
-h1 {
-  font-size: 1.5rem;
+img-flex {
+  display: block;
+  width: 100%;
 }
 
 .content{
   background-color: #000000;
   color: #fff;
   display: inline-block;
-  float: right;
+  position: absolute;
+  top: 20rem;
+  right: 38rem;
+
 }
+
+@media only screen and (min-width: 38em){
+
+
+  img-flex {
+    display: block;
+  }
+
+  .content{
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 20rem;
+    right: 38rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img-flex {
+    display: block;
+  }
+
+  .content{
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 20rem;
+    right: 38rem;
+  }
+  }
+
+@media only screen and (min-width: 90em) {
+
+  img-flex {
+    display: block;
+  }
+
+  .content{
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 20rem;
+    right: 38rem;
+  }
+  }
