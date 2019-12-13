@@ -36,20 +36,18 @@ img-flex {
 }
 
 .content{
-  background-color: #000000;
-  color: #fff;
-  display: inline-block;
-  position: absolute;
-  top: 20rem;
-  right: 38rem;
+  background-color: #e2e2e2;
+  padding: 1.3rem;
+  margin: 0 auto;
 
 }
 
-.title{
+.title {
   margin: 0;
   font-family: "Denk One", sans-serif;
   padding: 1rem;
   margin: 0;
+  line-height: 1.3rem;
   font-size: 1.5rem;
 }
 
@@ -99,13 +97,18 @@ html{
     display: block;
   }
 
+  html {
+    line-height: 1.5;
+  }
   .content{
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, .3)
+    width: 50%;
     color: #fff;
     display: inline-block;
+    color: #fff;
+    bottom: 2rem;
+    left: 25rem;
     position: absolute;
-    top: 20rem;
-    right: 38rem;
   }
   }
 
@@ -115,12 +118,7 @@ html{
     display: block;
   }
 
-  .content{
-    background-color: #000000;
-    color: #fff;
-    display: inline-block;
-    position: absolute;
-    top: 20rem;
-    right: 38rem;
+  html{
+  font-size: 130%;
   }
-  }
+}
