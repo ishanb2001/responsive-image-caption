@@ -19,23 +19,23 @@ html {
 body {
   margin: 0;
 }
+
 img {
   width: 100%;
   display: block;
 }
 
-.sentence {
-  padding: 00 1rem 1rem;
-  font-family: georgia, serif;
-}
-
-}
 img-flex {
   display: block;
   width: 100%;
 }
 
-.content{
+.sentence {
+  margin-top: 0;
+  font-family: Georgia, serif;
+}
+
+.content {
   background-color: #e2e2e2;
   padding: 1.3rem;
   margin: 0 auto;
@@ -44,7 +44,6 @@ img-flex {
 
 .title {
   font-family: "Denk One", sans-serif;
-  padding: 1rem;
   margin-bottom: 1.5rem;
   margin-top: 0;
   line-height: 1.3rem;
@@ -53,38 +52,41 @@ img-flex {
 
 @media only screen and (min-width: 38em){
 
-  html{
+  html {
     line-height: 1.4;
     font-size: 110%;
   }
 
-  .content{
+  .content {
     background-color: rgba(0, 0, 0, .3);
     color: #fff;
     bottom: 1.5rem;
     display: inline-block;
     width: 20em;
+    border-radius: 9px;
     position: absolute;
     right: 1.5rem;
     padding: 1.3rem;
     margin: 0 auto;
   }
 
-  .wrapper{
+  .wrapper {
     position: relative;
 }
-  .sentence{
+  .sentence {
     padding: 00 1rem 1rem;
     margin: 0;
-    font-family: georgia, serif;
+    font-family: Georgia, serif;
   }
-}
+
     .title {
     margin: 0;
     font-family: "Denk One", sans-serif;
     padding: 1rem;
     margin: 0;
     font-size: 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -96,7 +98,7 @@ img-flex {
   html {
     line-height: 1.5;
   }
-
+}
 
 @media only screen and (min-width: 90em) {
 
@@ -104,7 +106,8 @@ img-flex {
     display: block;
   }
 
-  html{
+  html {
   font-size: 130%;
   }
+
 }
