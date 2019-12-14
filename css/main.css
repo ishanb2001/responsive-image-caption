@@ -40,7 +40,6 @@ img {
   background-color: #e2e2e2;
   padding: 1.3rem;
   margin: 0 auto;
-
 }
 
 .title {
@@ -51,7 +50,7 @@ img {
   font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em) {
 
   html {
     line-height: 1.4;
@@ -73,18 +72,18 @@ img {
 
   .wrapper {
     position: relative;
-}
+  }
+
   .sentence {
     padding: 00 1rem 1rem;
     margin: 0;
     font-family: Georgia, serif;
   }
 
-    .title {
+  .title {
     margin: 0;
     font-family: "Denk One", sans-serif;
     padding: 1rem;
-    margin: 0;
     font-size: 1.5rem;
   }
 
@@ -100,6 +99,7 @@ img {
     line-height: 1.5;
     font-size: 120%;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -109,7 +109,7 @@ img {
   }
 
   html {
-  font-size: 130%;
+    font-size: 130%;
   }
 
 }
